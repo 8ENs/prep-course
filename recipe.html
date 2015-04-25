@@ -3,13 +3,16 @@
 <html>
 	<head>
 		<link type="text/css" rel="stylesheet" href="style.css" />
-		<script src="script.js"></script>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+		<link type="text/css" rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css" /> 
+		<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+  		<script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+		<script type='text/javascript' src="script.js"></script>
+
 		<title>TITLE</title>
 	</head>
 	<body>
 		<h1>Fannie Farmer Griddlecakes</h1>
-		<section id="intro">
+		<div id="intro">
 			<h2>Introduction</h2>
 			<p>This makes about 12 smaller pancakes about as big around as a baseball. This recipe is in the <strong>Fannie Farmer Cookbook</strong> and they are delicious.</p>
 			<p><h3>Minutes to Prepare: 10</h3></p>
@@ -17,8 +20,9 @@
 			<img src="images/griddlecake.jpg" />
 			<img src="images/nutrition.jpg" />
 			<img src="images/fannie.png" />
+			<p>Toggle Images: <a href="#" class="toggler">&nbsp;</a></p>
 		</div>
-		<section id="ingredients">
+		<div id="ingredients">
 			<h2>Ingredients</h2>
 			<ul>
 				<li>1 cup 2% milk</li>
@@ -32,12 +36,21 @@
 				<li>1/2 cup chocolate chips</li>
 			</ul>
 		</div>
-		<section id="directions">
-			<h2>Directions</h2>
-			<p>Mix all dry ingredients together in one bowl and all the wet in another. Then slowly mix in wet to dry. If the batter is too thick for you then add as much milk as you need to meet your desired consistency.</p>
-			<p>Also if you want them even fluffier then you can seperate your egg and whip the whites till fluffy and fold in at the end of the mixing stage. I spray my non-stick pan with olive oil spray only for the first batch.</p>
-			<p>This makes about 12 small pancakes. It's easy to double the recipe. Top with maple syrup and/or icing sugar.</p>
-			<p>Number of Servings: 12</p>
+		<h2>Directions</h2>
+		<div id="directions">
+			<h3>Step 1</h3>
+			<div>
+				<p>Mix all dry ingredients together in one bowl and all the wet in another. Then slowly mix in wet to dry. If the batter is too thick for you then add as much milk as you need to meet your desired consistency.</p>
+			</div>
+			<h3>Step 2</h3>
+			<div>
+				<p>Also if you want them even fluffier then you can seperate your egg and whip the whites till fluffy and fold in at the end of the mixing stage. I spray my non-stick pan with olive oil spray only for the first batch.</p>
+			</div>
+			<h3>Step 3</h3>
+			<div>
+				<p>This makes about 12 small pancakes. It's easy to double the recipe. Top with maple syrup and/or icing sugar.</p>
+			</div>
 		</div>
+		<p>Number of Servings: 12</p>
 	</body>
 </html>

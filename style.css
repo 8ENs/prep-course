@@ -18,6 +18,28 @@ img:hover {
     -webkit-transform: rotate(5deg) scale(.9,.9); /* Safari */
 }
 
+.checked {
+	text-decoration: line-through;
+	color: #d3d3d3;
+}
+
+a.toggler {
+    background: green;
+    cursor: pointer;
+    border: 2px solid black;
+    border-right-width: 15px;
+    padding: 0 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all .5s ease;
+}
+
+a.toggler.off {
+    background: red;
+    border-right-width: 2px;
+    border-left-width: 15px;
+}
+
 #intro {
 
 }
