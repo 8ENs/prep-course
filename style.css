@@ -1,0 +1,31 @@
+/* Recipe Style */
+img {
+	border-radius: 10px;
+	box-shadow: 5px 5px 1px #888888;
+	height: 200px;
+	margin: 10px;
+	/*object-fit: cover; */
+    transition: transform .3s ease-out, box-shadow .3s ease-out;
+    /*-webkit-transition: -moz-transform .3s ease-out; /* Safari
+    -moz-transition: -webkit-transform .3s ease-out; 
+   	-o-transition: -o-transform .3s ease-out; */
+}
+
+img:hover {
+	box-shadow: none;
+    transform: rotate(5deg) scale(.9,.9);
+    /*-ms-transform: rotate(5deg) scale(.9,.9); /* IE 9 
+    -webkit-transform: rotate(5deg) scale(.9,.9); /* Safari */
+}
+
+#intro {
+
+}
+
+#ingredients {
+
+}
+
+#directions {
+
+}
